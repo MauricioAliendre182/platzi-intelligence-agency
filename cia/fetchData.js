@@ -37,7 +37,7 @@ fetch(
       <div class="card-body">
         <center>
         <img
-          src=${x.images}
+          src="https://image.shutterstock.com/image-photo/london-uk-march-18th-2018-600w-1051373186.jpg"
           width="200"
         />
         </center>
