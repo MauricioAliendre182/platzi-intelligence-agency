@@ -3,7 +3,7 @@ let = $accordion = document.getElementById("accordion");
 let ciaData = null;
 
 fetch(
-  "https://app.scrapinghub.com/api/v2/datasets/kdybI1E79Ww/download?format=json"
+  "https://app.zyte.com/api/v2/datasets/v4Px091x4HK/download?format=json"
 )
   .then((response) => {
     return response.json();
@@ -37,7 +37,7 @@ fetch(
       <div class="card-body">
         <center>
         <img
-          src="https://image.shutterstock.com/image-photo/london-uk-march-18th-2018-600w-1051373186.jpg"
+          src=${x.logo}
           width="200"
         />
         </center>
